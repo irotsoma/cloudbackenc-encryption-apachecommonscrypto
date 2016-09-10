@@ -17,9 +17,9 @@
 
 package com.irotsoma.cloudbackenc.encryptionservice.apachecommonscrypto
 
-import com.irotsoma.cloudbackenc.encryptionservice.EncryptionServiceKeyAlgorithms
-import com.irotsoma.cloudbackenc.encryptionservice.EncryptionServiceKeyService
-import com.irotsoma.cloudbackenc.encryptionservice.EncryptionServicePBKDFAlgorithms
+import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceKeyAlgorithms
+import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceKeyService
+import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServicePBKDFAlgorithms
 import java.security.KeyPair
 import java.security.SecureRandom
 import javax.crypto.SecretKey

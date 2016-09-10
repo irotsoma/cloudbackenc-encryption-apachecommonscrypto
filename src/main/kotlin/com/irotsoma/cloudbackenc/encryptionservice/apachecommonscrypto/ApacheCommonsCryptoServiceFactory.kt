@@ -17,10 +17,10 @@
 
 package com.irotsoma.cloudbackenc.encryptionservice.apachecommonscrypto
 
-import com.irotsoma.cloudbackenc.encryptionservice.EncryptionServiceEncryptionAlgorithms
-import com.irotsoma.cloudbackenc.encryptionservice.EncryptionServiceFactory
-import com.irotsoma.cloudbackenc.encryptionservice.EncryptionServiceKeyAlgorithms
-import com.irotsoma.cloudbackenc.encryptionservice.EncryptionServicePBKDFAlgorithms
+import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceEncryptionAlgorithms
+import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceFactory
+import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceKeyAlgorithms
+import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServicePBKDFAlgorithms
 
 /**
  * Created by irotsoma on 8/26/2016.
