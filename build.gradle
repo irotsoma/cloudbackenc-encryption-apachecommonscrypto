@@ -48,7 +48,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    compile 'com.irotsoma.cloudbackenc:common:0.1'
+    compile 'com.irotsoma.cloudbackenc:common:0.2-SNAPSHOT'
     compile 'com.irotsoma.cloudbackenc:encryptionservice:0.2-SNAPSHOT'
     compile 'org.apache.commons:commons-crypto:1.0.0'
     testCompile 'junit:junit:4.12'
