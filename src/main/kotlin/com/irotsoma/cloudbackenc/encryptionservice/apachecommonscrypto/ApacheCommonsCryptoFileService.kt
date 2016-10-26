@@ -14,7 +14,9 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-
+/*
+ * Created by irotsoma on 8/26/2016.
+ */
 package com.irotsoma.cloudbackenc.encryptionservice.apachecommonscrypto
 
 import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceEncryptionAlgorithms
@@ -27,9 +29,7 @@ import java.security.SecureRandom
 import javax.crypto.SecretKey
 import javax.crypto.spec.IvParameterSpec
 
-/**
- * Created by irotsoma on 8/26/2016.
- */
+
 class ApacheCommonsCryptoFileService :EncryptionServiceFileService {
     override fun decrypt(inputStream: InputStream, outputStream: OutputStream, key: PrivateKey, algorithm: EncryptionServiceEncryptionAlgorithms, ivParameterSpec: IvParameterSpec?, secureRandom: SecureRandom?) {
         throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.

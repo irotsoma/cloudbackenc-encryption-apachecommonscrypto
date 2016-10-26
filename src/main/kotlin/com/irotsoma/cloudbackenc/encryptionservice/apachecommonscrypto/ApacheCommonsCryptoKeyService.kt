@@ -14,7 +14,9 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-
+/*
+ * Created by irotsoma on 8/26/2016.
+ */
 package com.irotsoma.cloudbackenc.encryptionservice.apachecommonscrypto
 
 import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceKeyAlgorithms
@@ -24,15 +26,8 @@ import java.security.KeyPair
 import java.security.SecureRandom
 import javax.crypto.SecretKey
 
-/**
- * Created by irotsoma on 8/26/2016.
- */
 class ApacheCommonsCryptoKeyService :EncryptionServiceKeyService {
     override fun generatePasswordBasedKey(password: String, salt: ByteArray): SecretKey {
-        throw UnsupportedOperationException("not implemented")
-    }
-
-    override fun generatePasswordBasedKey(password: String, salt: ByteArray, algorithm: EncryptionServicePBKDFAlgorithms, keySize: Int): SecretKey {
         throw UnsupportedOperationException("not implemented")
     }
 

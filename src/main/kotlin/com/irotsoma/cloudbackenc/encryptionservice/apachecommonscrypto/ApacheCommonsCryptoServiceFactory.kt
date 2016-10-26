@@ -14,7 +14,9 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-
+/*
+ * Created by irotsoma on 8/26/2016.
+ */
 package com.irotsoma.cloudbackenc.encryptionservice.apachecommonscrypto
 
 import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceEncryptionAlgorithms
@@ -22,9 +24,7 @@ import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceFacto
 import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceKeyAlgorithms
 import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServicePBKDFAlgorithms
 
-/**
- * Created by irotsoma on 8/26/2016.
- */
+
 class ApacheCommonsCryptoServiceFactory: EncryptionServiceFactory {
     override val supportedPBKDFAlgorithms: Array<EncryptionServicePBKDFAlgorithms>
         get() = throw UnsupportedOperationException()
