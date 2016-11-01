@@ -19,18 +19,20 @@
  */
 package com.irotsoma.cloudbackenc.encryptionservice.apachecommonscrypto
 
-import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceEncryptionAlgorithms
 import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceFactory
-import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceKeyAlgorithms
 import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServicePBKDFAlgorithms
 
 
 class ApacheCommonsCryptoServiceFactory: EncryptionServiceFactory {
     override val supportedPBKDFAlgorithms: Array<EncryptionServicePBKDFAlgorithms>
         get() = throw UnsupportedOperationException()
-    override val supportedEncryptionAlgorithms: Array<EncryptionServiceEncryptionAlgorithms>
+    override val supportedSymmetricEncryptionAlgorithms: Array<EncryptionServiceSymmetricEncryptionAlgorithms>
         get() = throw UnsupportedOperationException()
-    override val supportedKeyAlgorithms: Array<EncryptionServiceKeyAlgorithms>
+    override val supportedAsymmetricEncryptionAlgorithms: Array<EncryptionServiceAsymmetricEncryptionAlgorithms>
+        get() = throw UnsupportedOperationException()
+    override val supportedSymmetricKeyAlgorithms: Array<EncryptionServiceSymmetricKeyAlgorithms>
+        get() = throw UnsupportedOperationException()
+    override val supportedAsymmetricKeyAlgorithms: Array<EncryptionServiceAsymmetricKeyAlgorithms>
         get() = throw UnsupportedOperationException()
     override val encryptionServiceFileService = ApacheCommonsCryptoFileService()
     override val encryptionServiceKeyService = ApacheCommonsCryptoKeyService()
