@@ -19,8 +19,7 @@
  */
 package com.irotsoma.cloudbackenc.encryptionservice.apachecommonscrypto
 
-import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServiceFactory
-import com.irotsoma.cloudbackenc.common.encryptionservice.EncryptionServicePBKDFAlgorithms
+import com.irotsoma.cloudbackenc.common.encryptionservice.*
 
 
 class ApacheCommonsCryptoServiceFactory: EncryptionServiceFactory {
