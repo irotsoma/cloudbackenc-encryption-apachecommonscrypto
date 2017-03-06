@@ -20,7 +20,7 @@ buildscript {
     ext.dokkaVersion = '0.9.13'
     ext.apacheCommonsCryptoVersion = '1.0.0'
     ext.junitVersion = '4.12'
-
+    ext.kotlinLoggingVersion = '1.4.3'
 
     repositories {
         mavenCentral()
@@ -55,6 +55,9 @@ dependencies {
     compile "com.irotsoma.cloudbackenc:common:$commonVersion"
     compile "com.irotsoma.cloudbackenc.common:encryptionserviceinterface:$commonVersion"
     compile "org.apache.commons:commons-crypto:$apacheCommonsCryptoVersion"
+    //logging
+    compile "io.github.microutils:kotlin-logging:$kotlinLoggingVersion"
+    //test
     testCompile "junit:junit:$junitVersion"
 
 }
