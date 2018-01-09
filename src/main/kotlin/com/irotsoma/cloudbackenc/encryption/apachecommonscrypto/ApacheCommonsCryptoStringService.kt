@@ -16,11 +16,11 @@
 /*
  * Created by irotsoma on 8/26/2016.
  */
-package com.irotsoma.cloudbackenc.encryptionservice.apachecommonscrypto
+package com.irotsoma.cloudbackenc.encryption.apachecommonscrypto
 
-import com.irotsoma.cloudbackenc.common.encryptionserviceinterface.EncryptionServiceAsymmetricEncryptionAlgorithms
-import com.irotsoma.cloudbackenc.common.encryptionserviceinterface.EncryptionServiceStringService
-import com.irotsoma.cloudbackenc.common.encryptionserviceinterface.EncryptionServiceSymmetricEncryptionAlgorithms
+import com.irotsoma.cloudbackenc.common.encryption.EncryptionAsymmetricEncryptionAlgorithms
+import com.irotsoma.cloudbackenc.common.encryption.EncryptionStringService
+import com.irotsoma.cloudbackenc.common.encryption.EncryptionSymmetricEncryptionAlgorithms
 import java.security.PrivateKey
 import java.security.PublicKey
 import java.security.SecureRandom
@@ -28,20 +28,20 @@ import javax.crypto.SecretKey
 import javax.crypto.spec.IvParameterSpec
 
 
-class ApacheCommonsCryptoStringService: EncryptionServiceStringService {
-    override fun decrypt(input: String, key: PrivateKey, algorithm: EncryptionServiceAsymmetricEncryptionAlgorithms, ivParameterSpec: IvParameterSpec?, secureRandom: SecureRandom?): String {
+class ApacheCommonsCryptoStringService: EncryptionStringService {
+    override fun decrypt(input: String, key: PrivateKey, algorithm: EncryptionAsymmetricEncryptionAlgorithms, ivParameterSpec: IvParameterSpec?, secureRandom: SecureRandom?): String {
         throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun decrypt(input: String, key: SecretKey, algorithm: EncryptionServiceSymmetricEncryptionAlgorithms, ivParameterSpec: IvParameterSpec?, secureRandom: SecureRandom?): String {
+    override fun decrypt(input: String, key: SecretKey, algorithm: EncryptionSymmetricEncryptionAlgorithms, ivParameterSpec: IvParameterSpec?, secureRandom: SecureRandom?): String {
         throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun encrypt(input: String, key: PublicKey, algorithm: EncryptionServiceAsymmetricEncryptionAlgorithms, ivParameterSpec: IvParameterSpec?, secureRandom: SecureRandom?): String {
+    override fun encrypt(input: String, key: PublicKey, algorithm: EncryptionAsymmetricEncryptionAlgorithms, ivParameterSpec: IvParameterSpec?, secureRandom: SecureRandom?): String {
         throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun encrypt(input: String, key: SecretKey, algorithm: EncryptionServiceSymmetricEncryptionAlgorithms, ivParameterSpec: IvParameterSpec?, secureRandom: SecureRandom?): String {
+    override fun encrypt(input: String, key: SecretKey, algorithm: EncryptionSymmetricEncryptionAlgorithms, ivParameterSpec: IvParameterSpec?, secureRandom: SecureRandom?): String {
         throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 

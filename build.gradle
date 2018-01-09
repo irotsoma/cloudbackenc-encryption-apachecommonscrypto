@@ -14,8 +14,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 buildscript {
-    ext.commonVersion='0.2-SNAPSHOT'
-    ext.kotlin_version = '1.1.51'
+    ext.commonVersion='0.3-SNAPSHOT'
+    ext.kotlin_version = '1.2.10'
     ext.dokkaVersion = '0.9.15'
     ext.apacheCommonsCryptoVersion = '1.0.0'
     ext.junitVersion = '4.12'
@@ -35,8 +35,8 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '2.0.1'
 }
 
-group 'com.irotsoma.cloudbackenc.encryptionservice'
-version '0.1-SNAPSHOT'
+group 'com.irotsoma.cloudbackenc.encryption'
+version '0.3-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'kotlin'
@@ -54,7 +54,7 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile "com.irotsoma.cloudbackenc:common:$commonVersion"
-    compile "com.irotsoma.cloudbackenc.common:encryptionserviceinterface:$commonVersion"
+    compile "com.irotsoma.cloudbackenc.common:encryption:$commonVersion"
     compile "org.apache.commons:commons-crypto:$apacheCommonsCryptoVersion"
     //logging
     compile "io.github.microutils:kotlin-logging:$kotlinLoggingVersion"
