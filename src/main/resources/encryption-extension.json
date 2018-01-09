@@ -1,6 +1,6 @@
 {
-  "serviceUuid": "8ccdef5f-5833-4264-acd5-4c67a24320c0",
-  "serviceName": "Bouncy Castle",
+  "extensionUuid": "1543a6ff-d2e2-46f8-9645-3d330cd5717a",
+  "extensionName": "Apache Commons Crypto",
   "packageName": "com.irotsoma.cloudbackenc.encryption.apachecommonscrypto",
   "factoryClass": "ApacheCommonsCryptoServiceFactory",
   "releaseVersion": 1
