@@ -2,7 +2,7 @@
 
 
 <span style="font-size: .5em;">
-Copyright (C) 2016  Irotsoma, LLC
+Copyright (C) 2016-2019  Irotsoma, LLC
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
