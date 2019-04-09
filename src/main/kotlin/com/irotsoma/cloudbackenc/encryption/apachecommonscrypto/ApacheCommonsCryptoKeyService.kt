@@ -20,7 +20,7 @@ package com.irotsoma.cloudbackenc.encryption.apachecommonscrypto
 
 import com.irotsoma.cloudbackenc.common.encryption.EncryptionAsymmetricKeyAlgorithms
 import com.irotsoma.cloudbackenc.common.encryption.EncryptionKeyService
-import com.irotsoma.cloudbackenc.common.encryption.EncryptionPBKDFAlgorithms
+import com.irotsoma.cloudbackenc.common.encryption.EncryptionPBKDFEncryptionAlgorithms
 import com.irotsoma.cloudbackenc.common.encryption.EncryptionSymmetricKeyAlgorithms
 import java.security.KeyPair
 import java.security.SecureRandom
@@ -43,7 +43,7 @@ class ApacheCommonsCryptoKeyService :EncryptionKeyService {
         throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun generatePasswordBasedKey(password: String, salt: ByteArray, algorithm: EncryptionPBKDFAlgorithms, keySize: Int, iterations: Int): SecretKey? {
+    override fun generatePasswordBasedKey(password: String, salt: ByteArray, algorithm: EncryptionPBKDFEncryptionAlgorithms, keySize: Int, iterations: Int): SecretKey? {
         throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 

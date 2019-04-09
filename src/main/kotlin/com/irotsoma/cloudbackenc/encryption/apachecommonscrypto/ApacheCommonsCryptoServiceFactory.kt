@@ -22,7 +22,7 @@ import com.irotsoma.cloudbackenc.common.encryption.*
 
 
 class ApacheCommonsCryptoServiceFactory: EncryptionFactory() {
-    override val supportedPBKDFAlgorithms: Array<EncryptionPBKDFAlgorithms>
+    override val supportedPBKDFEncryptionAlgorithms: Array<EncryptionPBKDFEncryptionAlgorithms>
         get() = throw UnsupportedOperationException()
     override val supportedSymmetricEncryptionAlgorithms: Array<EncryptionSymmetricEncryptionAlgorithms>
         get() = throw UnsupportedOperationException()
