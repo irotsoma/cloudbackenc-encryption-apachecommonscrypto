@@ -32,7 +32,7 @@ class ApacheCommonsCryptoServiceFactory: EncryptionFactory() {
         get() = throw UnsupportedOperationException()
     override val supportedAsymmetricKeyAlgorithms: Array<EncryptionAsymmetricKeyAlgorithms>
         get() = throw UnsupportedOperationException()
-    override val encryptionFileService = ApacheCommonsCryptoFileService()
+    override val encryptionStreamService = ApacheCommonsCryptoStreamService()
     override val encryptionKeyService = ApacheCommonsCryptoKeyService()
     override val encryptionStringService = ApacheCommonsCryptoStringService()
 

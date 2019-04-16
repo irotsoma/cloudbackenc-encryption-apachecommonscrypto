@@ -19,7 +19,7 @@
 package com.irotsoma.cloudbackenc.encryption.apachecommonscrypto
 
 import com.irotsoma.cloudbackenc.common.encryption.EncryptionAsymmetricEncryptionAlgorithms
-import com.irotsoma.cloudbackenc.common.encryption.EncryptionFileService
+import com.irotsoma.cloudbackenc.common.encryption.EncryptionStreamService
 import com.irotsoma.cloudbackenc.common.encryption.EncryptionSymmetricEncryptionAlgorithms
 import java.io.InputStream
 import java.io.OutputStream
@@ -30,7 +30,7 @@ import javax.crypto.SecretKey
 import javax.crypto.spec.IvParameterSpec
 
 
-class ApacheCommonsCryptoFileService :EncryptionFileService() {
+class ApacheCommonsCryptoStreamService : EncryptionStreamService() {
     override fun decrypt(inputStream: InputStream, outputStream: OutputStream, key: PrivateKey, algorithm: EncryptionAsymmetricEncryptionAlgorithms, secureRandom: SecureRandom?) {
         throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
