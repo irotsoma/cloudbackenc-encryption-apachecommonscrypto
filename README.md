@@ -1,4 +1,4 @@
-# encryptionservice-apachecommonscrypto [![CircleCI](https://circleci.com/gh/irotsoma/encryptionservice-apachecommonscrypto/tree/master.svg?style=svg)](https://circleci.com/gh/irotsoma/encryptionservice-apachecommonscrypto/tree/master)
+# encryptionservice-apachecommonscrypto
 
 
 <span style="font-size: .5em;">
