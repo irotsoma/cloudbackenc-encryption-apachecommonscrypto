@@ -1,8 +1,9 @@
 # encryptionservice-apachecommonscrypto
 
+[![Build Status](https://travis-ci.com/irotsoma/encryptionservice-apachecommonscrypto.svg?branch=master)](https://travis-ci.com/irotsoma/encryptionservice-apachecommonscrypto)
 
 <span style="font-size: .5em;">
-Copyright (C) 2016-2019  Irotsoma, LLC
+Copyright (C) 2016-2021  Irotsoma, LLC
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
